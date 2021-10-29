@@ -16,6 +16,7 @@ class Answer extends StatelessWidget {
           primary: Colors.blue,
           onPrimary: Colors.white,
           shadowColor: Colors.redAccent[400],
+          onSurface: Colors.blueGrey
         ),
         child: Text(answerText),
         onPressed: selectHandler,
