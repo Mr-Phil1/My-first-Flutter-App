@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
 
   void answerQuestions() {
     questonIndex=questonIndex+1;
+    print(questonIndex);
   }
 
   @override
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Text(
-              questions[1],
+              questions[questonIndex],
             ),
             ElevatedButton(
               child: Text('Answer 1'),
