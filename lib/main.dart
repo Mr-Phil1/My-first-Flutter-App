@@ -6,11 +6,18 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return MyAppState();
+  }
+}
+
+class MyAppState extends State <MyApp> {
   int questonIndex = 0;
 
   void answerQuestions() {
-    questonIndex=questonIndex+1;
+    questonIndex = questonIndex + 1;
     print(questonIndex);
   }
 
