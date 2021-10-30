@@ -64,7 +64,7 @@ class _MyAppState extends State<MyApp> {
                 answerQuestion: _answerQuestions,
                 questionIndex: _questionIndex,
                 questions: _questions)
-            : Result(),
+            : Result(1),
       ),
     );
   }
